@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="{%static 'css/home.css'%}">
+<head>
+    <meta charset="UTF-8">
+    <title>home page</title>
+    <style>
+        body{background-image:url('D:\django\mysite\static\images\vedioncon.jfif');
+
+            }
+        .jumbotron{
+
+                   background:pink;
+                  color:red;}
+
+
+
+    </style>
+</head>
+<body background-color="red" background="{%static 'images/img3.jfif'%}">
+
+<div class="jumbotron" COLOR="RED">
+     <img align="left" height="100" width="100" src="{%static 'images/vedioncon.jfif'%}">
+        <img align="right" height="100" width="100" src="{%static 'images/dishtv.jpg'%}">
+
+    <h1 class="display-4" align="center" color="blue" >    <img src="{%static 'images/logo.gif'%}">
+ </h1>
+
+  <p class="lead"> <H3 align=" center">Here we provides all the  communication services</H3></p>
+  <hr class="my-4">
+  <p align="center"> To continue click buttons in below</p>
+ &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a class="btn btn-primary btn-lg" href="/info" role="button">service provider info</a>
+  &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp <a class="btn btn-primary btn-lg" href="/services" role="button">services</a>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp <a class="btn btn-primary btn-lg" href="/register" role="button">register for a service</a>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class="btn btn-primary btn-lg" href="/help" role="button">help</a><br><br>
+    <h1 align="center">&nbsp&nbsp&nbsp <a class="btn btn-primary btn-lg" href="/admin" role="button">ADMIN</a></h1>
+
+<br><br><hr></div>
+</body>
+</html>
