@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import complaints,completed
 import datetime
+from twilio.rest import Client
+from siteapp.credentials import account_side,auth_token,my_cell,my_twilio
+from siteapp.lookup import is_valid_number
 
 def home_view(request):
     return render (request,'siteapp/home.html')
@@ -28,12 +31,13 @@ def regconf_view(request):
         address=request.POST.get('address')
         date=datetime.datetime.now()
         status='not completed'
-
-
-
         my_dict = {'name': name, 'service': service, 'phone': phone, 'address': address}
+        phone='+91'+phone
+        phvalid=str(is_valid_number(phone))
+        print(phvalid)
 
-        if  len(phone)==10 and len(name)!=0 and service!='-------select-------' and len(address)!=0  :
+
+        if  phvalid=='True' and len(name)!=0 and service!='-------select-------' and len(address)!=0  :
              print('name is the not type of string')
              table=complaints()
              table.name=name
@@ -45,6 +49,10 @@ def regconf_view(request):
              table.status=status
              table.save()
              stre = 'siteapp/regconf.html'
+             client = Client(account_side, auth_token)
+             my_msg=service+'  request received,  '+name+' , '+phone+' , '+address
+             message = client.messages.create(from_=my_twilio, to=my_cell, body=my_msg)
+
 
         else:
             stre ='siteapp/regfail.html'
