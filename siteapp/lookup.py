@@ -1,9 +1,14 @@
+import os
 from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
+from twilio.http.http_client import TwilioHttpClient
 
-account_side='ACc7c5311e80aa31de5454e4ae064ab5b9'
-auth_token='2bbf2d0a5db2e5a6a9a9cc48f3b5e2ae'
-client=Client(account_side,auth_token)
+proxy_client = TwilioHttpClient()
+proxy_client.session.proxies = {'https': os.environ['https_proxy']}
+
+account_side='AC05eda611eefcbb94e829d1c64e90b104'
+auth_token='72263233d2d7bbcab4b0ff0c46c549fd'
+client=Client(account_side,auth_token,http_client=proxy_client)
 
 
 def is_valid_number(number):
@@ -17,6 +22,4 @@ def is_valid_number(number):
 			return False
 		else:
 			raise e
-print(is_valid_number('+91199999999999'))
-print(is_valid_number('+916281000840'))
 

@@ -50,7 +50,7 @@ def regconf_view(request):
              table.save()
              stre = 'siteapp/regconf.html'
              client = Client(account_side, auth_token)
-             my_msg=service+'  request received,  '+name+' , '+phone+' , '+address
+             my_msg=service+' request received, \n '+name+' ,\n '+phone+' ,\n '+address
              message = client.messages.create(from_=my_twilio, to=my_cell, body=my_msg)
 
 

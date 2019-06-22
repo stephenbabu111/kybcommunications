@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfc48df-cd06-4a70-89df-4b367093292f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/images/airteltvlogo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/images/dishtv.jpg" afterDir="false" />
@@ -17,15 +21,15 @@
       <change afterPath="$PROJECT_DIR$/templates/siteapp/help.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/siteapp/home.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/siteapp/regconf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/siteapp/regfail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/siteapp/register.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/siteapp/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siteapp/credentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/siteapp/credentials.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siteapp/lookup.py" beforeDir="false" afterPath="$PROJECT_DIR$/siteapp/lookup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/siteapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/siteapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/siteapp/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/siteapp/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/siteapp/mulselect.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/siteapp/mulselect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/siteapp/regfail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/siteapp/regfail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,26 +42,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/siteapp/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="260">
+              <caret line="24" selection-start-line="24" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+        <entry file="file://$PROJECT_DIR$/siteapp/credentials.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/siteapp/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="35" column="184" lean-forward="true" selection-start-line="35" selection-start-column="184" selection-end-line="35" selection-end-column="184" />
+            <state relative-caret-position="75">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -65,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/siteapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+            <state relative-caret-position="25">
+              <caret line="52" column="77" selection-start-line="52" selection-start-column="77" selection-end-line="52" selection-end-column="77" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -77,17 +72,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/siteapp/lookup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="483">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/siteapp/twilio_sms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/siteapp/mulselect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="575">
               <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/siteapp/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/templates/siteapp/regfail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -113,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/siteapp/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="950">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -140,16 +162,17 @@
         <option value="$PROJECT_DIR$/templates/siteapp/noupdate.html" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/templates/siteapp/home.html" />
-        <option value="$PROJECT_DIR$/siteapp/admin.py" />
         <option value="$PROJECT_DIR$/templates/siteapp/regconf.html" />
-        <option value="$PROJECT_DIR$/siteapp/twilio_sms.py" />
-        <option value="$PROJECT_DIR$/siteapp/lookup.py" />
         <option value="$PROJECT_DIR$/templates/siteapp/regfail.html" />
-        <option value="$PROJECT_DIR$/siteapp/views.py" />
         <option value="$PROJECT_DIR$/templates/siteapp/register.html" />
-        <option value="$PROJECT_DIR$/templates/siteapp/info.html" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/templates/siteapp/mulselect.html" />
+        <option value="$PROJECT_DIR$/siteapp/admin.py" />
+        <option value="$PROJECT_DIR$/siteapp/views.py" />
+        <option value="$PROJECT_DIR$/templates/siteapp/info.html" />
+        <option value="$PROJECT_DIR$/siteapp/credentials.py" />
+        <option value="$PROJECT_DIR$/siteapp/lookup.py" />
+        <option value="$PROJECT_DIR$/siteapp/twilio_sms.py" />
       </list>
     </option>
   </component>
@@ -163,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="717" />
     <option name="y" value="11" />
     <option name="width" value="656" />
@@ -229,6 +252,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/siteapp" />
   </component>
   <component name="RecentsManager">
@@ -323,16 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/siteapp/regconf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -340,19 +354,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteapp/credentials.py">
+    <entry file="file://$PROJECT_DIR$/static/images/airteltvlogo.png" />
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="3075">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteapp/twilio_sms.py">
+    <entry file="file://$PROJECT_DIR$/templates/siteapp/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="76" />
+        <state relative-caret-position="875">
+          <caret line="35" column="184" selection-start-line="35" selection-start-column="184" selection-end-line="35" selection-end-column="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/siteapp/mulselect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -364,65 +393,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteapp/lookup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/siteapp/regfail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/siteapp/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/siteapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+        <state relative-caret-position="25">
+          <caret line="52" column="77" selection-start-line="52" selection-start-column="77" selection-end-line="52" selection-end-column="77" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/siteapp/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="35" column="184" lean-forward="true" selection-start-line="35" selection-start-column="184" selection-end-line="35" selection-end-column="184" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/siteapp/info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
+        <state relative-caret-position="260">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteapp/credentials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteapp/lookup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/airteltvlogo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/siteapp/home.html">
+    <entry file="file://$PROJECT_DIR$/siteapp/twilio_sms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/siteapp/mulselect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+        <state relative-caret-position="250">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
