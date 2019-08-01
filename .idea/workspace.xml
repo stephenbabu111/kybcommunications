@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfc48df-cd06-4a70-89df-4b367093292f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/airteltvlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dishtv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dishtvlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dthrecharge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/img3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mobile.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/recharge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sunlogo.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/vedioconlogo.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/vedioncon.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/siteapp/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/siteapp/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/siteapp/regconf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/siteapp/regfail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/siteapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/siteapp/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite/.idea/mysite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/siteapp/credentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/siteapp/credentials.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/siteapp/lookup.py" beforeDir="false" afterPath="$PROJECT_DIR$/siteapp/lookup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/siteapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/siteapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/siteapp/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/siteapp/info.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/siteapp/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="600">
               <caret line="24" selection-start-line="24" selection-end-line="25" />
             </state>
           </provider>
@@ -60,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/siteapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="1150">
               <caret line="52" column="77" selection-start-line="52" selection-start-column="77" selection-end-line="52" selection-end-column="77" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -69,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/siteapp/lookup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -81,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/siteapp/twilio_sms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+            <state relative-caret-position="75">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -171,8 +149,8 @@
         <option value="$PROJECT_DIR$/siteapp/views.py" />
         <option value="$PROJECT_DIR$/templates/siteapp/info.html" />
         <option value="$PROJECT_DIR$/siteapp/credentials.py" />
-        <option value="$PROJECT_DIR$/siteapp/lookup.py" />
         <option value="$PROJECT_DIR$/siteapp/twilio_sms.py" />
+        <option value="$PROJECT_DIR$/siteapp/lookup.py" />
       </list>
     </option>
   </component>
@@ -198,56 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="siteapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="siteapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,9 +218,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114583336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -369,6 +298,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/siteapp/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="52" column="77" selection-start-line="52" selection-start-column="77" selection-end-line="52" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/siteapp/mulselect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -407,23 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="52" column="77" selection-start-line="52" selection-start-column="77" selection-end-line="52" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/siteapp/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="24" selection-start-line="24" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/siteapp/credentials.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -431,22 +360,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteapp/lookup.py">
+    <entry file="file://$PROJECT_DIR$/siteapp/twilio_sms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteapp/twilio_sms.py">
+    <entry file="file://$PROJECT_DIR$/siteapp/lookup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
