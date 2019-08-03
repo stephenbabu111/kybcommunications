@@ -5,20 +5,25 @@ import datetime
 from twilio.rest import Client
 from siteapp.credentials import account_side,auth_token,my_cell,my_twilio
 from siteapp.lookup import is_valid_number
+import datetime
+from siteapp.week import get_day
+get_day=get_day()
 
 def home_view(request):
-    return render (request,'siteapp/home.html')
+    color={'clr':'red'}
+    #print(datetime.now())
+    return render (request,'siteapp/home.html',get_day)
 def info_view(request):
     print('THE VIEW')
-    return render (request,'siteapp/info.html')
+    return render (request,'siteapp/info.html',get_day)
 
 def services_view(request):
-    return render(request,'siteapp/services.html')
+    return render(request,'siteapp/services.html',get_day)
 def help_view(request):
-    return render(request,'siteapp/help.html')
+    return render(request,'siteapp/help.html',get_day)
 def register_veiw(request):
 
-    return render(request,'siteapp/register.html')
+    return render(request,'siteapp/register.html',get_day)
 
 
 def regconf_view(request):
@@ -51,7 +56,7 @@ def regconf_view(request):
              stre = 'siteapp/regconf.html'
              client = Client(account_side, auth_token)
              my_msg=service+' request received, \n '+name+' ,\n '+phone+' ,\n '+address
-             message = client.messages.create(from_=my_twilio, to=my_cell, body=my_msg)
+             #message = client.messages.create(from_=my_twilio, to=my_cell, body=my_msg)
 
 
         else:
